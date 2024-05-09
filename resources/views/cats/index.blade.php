@@ -7,7 +7,9 @@
     <title>Cat</title>
 </head>
 <body>
-   <h1>my cat name is laravel</h1>
+   <h1>Cat Hotel</h1>
+   <a href="{{ route('cats.create') }}">Add New Cat</a>
+
    
    <table border="1">
         <thead>
